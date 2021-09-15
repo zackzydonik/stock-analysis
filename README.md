@@ -136,3 +136,8 @@ The Results for 2017 and 2018 are listed below:
 
 ## Summary
 
+There are various advantages and disadvantages for refactoring code, or editing established code to accomlish a new task or combine actions. Refactoring code can allow the analysis to run more efficently. This means the analysis won't take as long, which can be essential when analyzing extremely large sets of data. However, refactoring can introduce risk and more bugs in the code that could lead to problems later when running the analysis.
+
+In this case, refactoring the original code allowed the code to run faster: the refactored coded runs in 0.15 seconds vs. 0.75 seconds. While this may seem like a small differences, this can be a major factor when analyzing larger datasets with thousands and thousands of rows of data. While the code does run faster, the refactored code accomplishs essentially the analysis as the original - if time is of the essence, it may not be of interest to refactor code.
+
+![image_name](Resources/Runtime Comparison.png)
