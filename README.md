@@ -140,4 +140,4 @@ There are various advantages and disadvantages for refactoring code, or editing 
 
 In this case, refactoring the original code allowed the code to run faster: the refactored coded runs in 0.15 seconds vs. 0.75 seconds. While this may seem like a small differences, this can be a major factor when analyzing larger datasets with thousands and thousands of rows of data. While the code does run faster, the refactored code accomplishs essentially the analysis as the original - if time is of the essence, it may not be of interest to refactor code.
 
-![image_name](Resources/Runtime Comparison.png)
+![image_name](https://github.com/zackzydonik/stock-analysis/blob/1fe9b3ff717dd4bdbb19b441cf5ab2470b505c79/Resources/Runtime%20Comparison.png)
